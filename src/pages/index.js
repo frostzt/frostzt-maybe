@@ -10,8 +10,6 @@ import SEO from "../components/seo"
 import "../styles/index.scss"
 
 export default ({ data }) => {
-  console.log(data)
-
   return (
     <Layout>
       <SEO title="Home" />
@@ -23,7 +21,7 @@ export default ({ data }) => {
                 {node.frontmatter.title} - {node.frontmatter.date}
               </h3>
             </Link>
-            <p>{node.excerpt}</p>
+            <p style={{ color: `var(--textNormal)` }}>{node.excerpt}</p>
           </div>
         ))}
       </div>

@@ -7,8 +7,11 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <h1 style={{ color: `var(--textTitle)` }}>{post.frontmatter.title}</h1>
+        <div
+          style={{ color: `var(--textNormal)` }}
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
       </div>
     </Layout>
   )

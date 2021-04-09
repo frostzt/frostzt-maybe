@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import ThemeToggle from "./themeToggle"
 
 const Header = () => (
   <header
@@ -8,6 +9,7 @@ const Header = () => (
       marginBottom: `1.45rem`,
     }}
   >
+    <ThemeToggle />
     <div
       style={{
         margin: `0 auto`,
@@ -19,7 +21,7 @@ const Header = () => (
         <Link
           to="/"
           style={{
-            color: `black`,
+            color: `var(--siteTitle)`,
             textDecoration: `none`,
           }}
         >

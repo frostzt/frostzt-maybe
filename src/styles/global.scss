@@ -1,0 +1,23 @@
+body {
+  --bg: #fff;
+  --siteTitle: #272727;
+  --textTitle: #ee6c4d;
+  --textNormal: #2b2d42;
+
+  background-color: var(--bg);
+}
+
+body.dark {
+  -webkit-font-smoothing: antialiased;
+
+  --bg: #2b2d42;
+  --siteTitle: #fff;
+  --textTitle: #ee6c4d;
+  --textNormal: #edf6f9;
+
+  background-color: var(--bg);
+}
+
+.heading-tertiary {
+  font-size: 1.6rem;
+}
