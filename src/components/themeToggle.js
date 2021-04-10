@@ -5,10 +5,6 @@ import { ThemeToggler } from "gatsby-plugin-dark-mode";
 import "../styles/toggleBtn.scss";
 
 const ThemeToggle = () => {
-  const changeStyle = e => {
-    e.target.classList.add("pushtoright");
-  };
-
   return (
     <ThemeToggler>
       {({ theme, toggleTheme }) => (
@@ -16,7 +12,9 @@ const ThemeToggle = () => {
           <div
             className="toggleTheme__circle"
             onClick={e => {
-              changeStyle(e);
+              theme === "dark"
+                ? e.target.classList.remove("pushtoright")
+                : e.target.classList.add("pushtoright");
               return theme === "dark"
                 ? toggleTheme("light")
                 : toggleTheme("dark");
