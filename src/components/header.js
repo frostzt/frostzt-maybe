@@ -1,15 +1,15 @@
-import * as React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
-import ThemeToggle from "./themeToggle"
+import * as React from "react";
+import PropTypes from "prop-types";
+import { Link } from "gatsby";
+import ThemeToggle from "./themeToggle";
 
 const Header = () => (
   <header
     style={{
       marginBottom: `1.45rem`,
+      position: `relative`,
     }}
   >
-    <ThemeToggle />
     <div
       style={{
         margin: `0 auto`,
@@ -29,7 +29,8 @@ const Header = () => (
         </Link>
       </h1>
     </div>
+    <ThemeToggle />
   </header>
-)
+);
 
-export default Header
+export default Header;

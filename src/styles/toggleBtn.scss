@@ -1,0 +1,25 @@
+.toggleTheme {
+  right: 10%;
+  width: 4rem;
+  height: 2rem;
+  top: 1.45rem;
+  position: absolute;
+  border-radius: 3rem;
+  display: inline-block;
+  border: 2px solid var(--siteTitle);
+
+  &__circle {
+    top: 5%;
+    left: 3%;
+    width: 1.6rem;
+    height: 1.6rem;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--siteTitle);
+  }
+}
+
+.pushtoright {
+  left: 52% !important;
+}
