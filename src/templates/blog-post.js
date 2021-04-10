@@ -2,11 +2,10 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import Personal from "../components/personal";
 
 export default ({ data }) => {
   const post = data.markdownRemark;
-
-  console.log(data);
 
   return (
     <Layout>
@@ -24,6 +23,7 @@ export default ({ data }) => {
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
       </div>
+      <Personal />
     </Layout>
   );
 };

@@ -1,5 +1,5 @@
 ---
-title: "Failure"
+title: "Failure, according to me..."
 date: "2021-04-11"
 description: "The word that everyone fears but fail to understand!"
 ---
@@ -29,5 +29,8 @@ Our ancestors had one thing that I desire the most today, true relationships! No
 And what is all this? **Failure** to understand humanity!
 
 We think that being human is just doing what you do and earning money and whatever else the society teaches us!
+I have been facing the same pressure since I graduated high school and things were never the same. Since I never was a social guy I was not able to make friends and things went more horrible as the era of social media came and everything just exploded! It surely is hard much hard to get by and think that things will change. Change is to be bought by us not people, people change, the world changes, and we, we can be where we are in our own cocoon and retreat!
 
-W(writing)IP
+I never truly understood when people told me that I failed, well to be honest we've all failed. We've failed humanity, everytime we refuse to help people and even animals, we've failed ourselves everytime we refuse to take that next step or risk to work on ourselves. Failure truly is universal and there is none in this world who haven't seen it. When we think that we've succeeded that's merely to say that _we've failed enough to pave our way to success!_
+
+So when next time somebody askes me, "Do you think you're successful?" my question to myself would be, _"What does failure mean to me?"_
