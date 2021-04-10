@@ -10,12 +10,10 @@ const ThemeToggle = () => {
       {({ theme, toggleTheme }) => (
         <div className="toggleTheme">
           <div
-            className="toggleTheme__circle"
-            onLoad={e =>
-              theme === "dark"
-                ? e.target.classList.add("pushtoright")
-                : e.target.classList.remove("pushtoright")
-            }
+            className={`toggleTheme__circle ${
+              theme === "dark" ? "pushtoright" : ""
+            }`}
+            id="toggle-dark-mode"
             onClick={e => {
               theme === "dark"
                 ? e.target.classList.remove("pushtoright")
