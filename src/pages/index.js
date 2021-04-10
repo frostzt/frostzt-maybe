@@ -1,18 +1,18 @@
-import * as React from "react"
-import { Link, graphql } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react";
+import { Link, graphql } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
 // COMPONENTS
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 // STYLE
-import "../styles/index.scss"
+import "../styles/index.scss";
 
 export default ({ data }) => {
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="world" />
       <div>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
@@ -26,8 +26,8 @@ export default ({ data }) => {
         ))}
       </div>
     </Layout>
-  )
-}
+  );
+};
 
 export const query = graphql`
   query {
@@ -49,4 +49,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;
