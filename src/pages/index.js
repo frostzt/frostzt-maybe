@@ -17,9 +17,13 @@ export default ({ data }) => {
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link className="post__title" to={node.fields.slug}>
-              <h3 className="heading-tertiary">
-                {node.frontmatter.title} - {node.frontmatter.date}
-              </h3>
+              <h3 className="heading-tertiary">{node.frontmatter.title}</h3>
+              <h4
+                className="heading-quaternary"
+                style={{ color: `var(--textSecondary)` }}
+              >
+                {node.frontmatter.date}
+              </h4>
             </Link>
             <p style={{ color: `var(--textNormal)` }}>{node.excerpt}</p>
           </div>

@@ -3,6 +3,7 @@ body {
   --siteTitle: #272727;
   --textTitle: #ee6c4d;
   --textNormal: #2b2d42;
+  --textSecondary: #495057;
 
   font-family: "Raleway", sans-serif !important;
   background-color: var(--bg);
@@ -11,10 +12,11 @@ body {
 body.dark {
   -webkit-font-smoothing: antialiased;
 
-  --bg: #2b2d42;
+  --bg: #272727;
   --siteTitle: #fff;
   --textTitle: #ee6c4d;
   --textNormal: #edf6f9;
+  --textSecondary: #dee2e6;
 
   font-family: "Raleway", sans-serif !important;
   background-color: var(--bg);
@@ -22,6 +24,13 @@ body.dark {
 
 .heading-tertiary {
   font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.heading-quaternary {
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-bottom: 0.6rem;
 }
 
 a {
