@@ -2,6 +2,7 @@ import * as React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
 import ThemeToggle from "./themeToggle";
+import { Helmet } from "react-helmet";
 
 const Header = () => (
   <header
@@ -10,6 +11,13 @@ const Header = () => (
       position: `relative`,
     }}
   >
+    <Helmet>
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;900&display=swap"
+        rel="stylesheet"
+      />
+    </Helmet>
     <div
       style={{
         margin: `0 auto`,
