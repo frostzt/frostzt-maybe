@@ -1,0 +1,25 @@
+.container {
+  margin-top: 5rem;
+  text-align: center;
+
+  .imageWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .imageContainer {
+      width: 12rem;
+      height: 12rem;
+      overflow: hidden;
+      position: relative;
+      border-radius: 50%;
+    }
+  }
+
+  .title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 1.5rem;
+  }
+}
