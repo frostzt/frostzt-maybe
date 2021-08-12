@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { v4 } from "uuid";
 import matter from "gray-matter";
 
 const postDirectory = path.join(process.cwd(), "posts");
@@ -7,7 +8,7 @@ const postDirectory = path.join(process.cwd(), "posts");
 export function getSortedPostsData() {
   const fileNames = fs.readdirSync(postDirectory);
   const allPostsData = fileNames.map((fileName) => {
-    const id = fileName.replace(/\.md$/, "");
+    const id = v4();
 
     // Read md as string
     const fullPath = path.join(postDirectory, fileName);
